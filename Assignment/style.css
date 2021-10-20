@@ -1,0 +1,144 @@
+/* Gradient background created by referring to https://www.w3schools.com/css/css3_gradients.asp */
+body {
+	background-image: linear-gradient(to right, Burlywood, lightcyan);
+}
+/* class for heading1, colours throughout the css are picked from https://www.w3schools.com/colors/colors_names.asp */
+.h1 {
+	margin: 20px;
+	max-width: 100%;
+	border: 5px solid OliveDrab;
+	padding: 5px;
+	text-align: center;
+	/*List of fonts acquired from https://www.w3schools.com/css/css_font.asp and picked Helvetica */
+	font-family: Helvetica, sans-serif;
+	font-size: 2.5em
+}
+/* Learned how to remove the underlines from links from this page https://www.w3schools.com/css/css_link.asp */
+
+a:link, a:focus, a:hover, a:active{
+  color:RoyalBlue;
+  text-decoration:none; 
+  cursor: pointer;
+}
+a:visited{
+	color:Indigo;
+	text-decoration:none;
+	cursor: pointer;
+}
+/* A class for navigation Bar, removing the bullets by following https://www.w3schools.com/css/css_navbar.asp */
+.Nav {
+	text-align: center;
+	list-style-type: none;
+	margin: 1em;
+	padding: 0;
+	max-width: 100% ;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+
+}
+/* A class for displaying my name, providing it new values than h1 */
+.name {
+	margin: 10px;
+	max-width: 100%;
+	border: 3px;
+	padding: 0px;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 2em;
+
+}
+/* Class for heading2, using colours and font mentioned above as well as creating a border under the text, hiding the other sides of the border, referred from https://www.w3schools.com/css/css_border_sides.asp */
+.h2 {
+	text-align: left;
+	margin: 10px;
+	border: 2px dashed forestgreen;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+/* Use of Georgia font from https://www.w3schools.com/css/css_font.asp */
+.Connect {
+	margin: 5px;
+	text-align: left;
+	font-family: Georgia, Serif;
+	font-size: 1em; 
+	text-decoration: none;
+
+}
+/* Class for all the subheadings, text decoration of underline, referred to https://www.w3schools.com/css/css_text_decoration.asp */
+.Subhead {
+	margin: 5px;
+	text-align: left;
+	font-family: Georgia, Serif;
+	font-size: 1.5em; 
+	text-decoration: underline;
+}
+
+.p1 {
+	margin: 5px;
+	text-align: left;
+	font-family: Georgia, Serif;
+	font-size: 1em; 
+	text-decoration: none;
+	text-indent: 20px;
+	margin-block-start: 0.5em;
+	margin-block-end: 1em;
+}
+/* ID of the table first applying font and border to the table*/
+#Education {
+	font-family: Georgia, Serif;
+	max-width:100%;
+	width: 60%;
+	border: 1px solid black;
+}/* Style and Alignment of the table caption */
+#Education caption {
+	font-size:1.5em;
+	font-style: italic;
+	text-align: center;
+}
+/* Background colour for the table header row and border around it*/
+#Education th {
+	border: 1px solid black;
+	background-color: Seagreen;
+}	
+/* Alignment and border around the table cells */
+#Education td {
+	text-align: center;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+.p2 {
+	margin: 5px;
+	text-align: left;
+	font-family: Georgia, Serif;
+	font-size: 1em; 
+	text-decoration: none;
+	text-indent: 20px;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+/* Same procedure for creating a dashed border as before with minor changes */
+.Projects {
+	padding: 5px;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 2em;
+	margin: 10px;
+	border: 2px dashed forestgreen;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+/* Used !important to actually set the indent, referred from https://www.jotform.com/answers/433421-how-to-remove-important-from-css-code */
+.p3 {
+	font-family: Georgia, Serif;
+	font-size: 1em; 
+	text-decoration: none;
+	margin-block-start: 1em;
+	text-indent: .5em !important;
+	line-height: 1.5em;
+}
